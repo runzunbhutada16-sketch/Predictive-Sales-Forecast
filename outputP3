@@ -1,0 +1,75 @@
+The output of your program depends on the contents of sales_data.csv.
+Date,Product,Category,Region,City,Sales,Profit
+2024-01-05,Laptop,Electronics,North,Delhi,45000,8000
+2024-01-10,Mouse,Electronics,West,Mumbai,1200,300
+2024-02-15,Keyboard,Electronics,South,Bangalore,2500,600
+2024-03-08,Monitor,Electronics,East,Kolkata,15000,2500
+2024-04-20,Laptop,Electronics,North,Delhi,55000,9000
+2024-05-11,Printer,Office,West,Mumbai,10000,1800
+2024-06-07,Chair,Furniture,South,Hyderabad,7000,1500
+2024-07-18,Desk,Furniture,East,Kolkata,12000,2500
+2024-08-25,Laptop,Electronics,West,Mumbai,60000,10000
+2024-09-14,Monitor,Electronics,North,Delhi,18000,3500
+
+then the console output will be approximately:
+=======================================================
+ PREDICTIVE SALES FORECAST SYSTEM
+=======================================================
+
+ Loaded 10 records.
+
+ Cleaning Dataset...
+
+ Removed 0 rows with missing values.
+ Removed 0 duplicate rows.
+ Removed 0 invalid dates.
+ Outliers removed.
+ Dataset cleaned successfully.
+ Final records: 10
+
+
+ DATASET SUMMARY
+
++------------------+-----------------------------+
+| Metric           | Value                       |
++------------------+-----------------------------+
+| Total Records    | 10                          |
+| Date Range       | 2024-01-05 to 2024-09-14    |
+| Total Sales      | 225700                      |
+| Total Profit     | 39700                       |
+| Average Revenue  | 22570.0                     |
+| Unique Products  | 7                           |
+| Unique Regions   | 4                           |
++------------------+-----------------------------+
+Total Sales: $225,700.00   
+
+Monthly Sales
++-------+--------+
+| Month | Sales  |
++-------+--------+
+|   1   | 46200  |
+|   2   | 2500   |
+|   3   | 15000  |
+|   4   | 55000  |
+|   5   | 10000  |
+|   6   | 7000   |
+|   7   | 12000  |
+|   8   | 60000  |
+
+Quarterly Sales
++---------+--------+
+| Quarter | Sales  |
++---------+--------+
+|    1    | 63700  |
+|    2    | 72000  |
+|    3    | 90000  |
++---------+--------+
+
+Yearly Sales
++------+--------+
+| Year | Sales  |
++------+--------+
+| 2024 | 225700 |
++------+--------+
+|   9   | 18000  |
++-------+--------+
